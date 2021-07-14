@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-06-17T15:39:34+01:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/jelle/OneDrive/Documents/Thesis/annotation/annotations final/video/40-Population-growth-and-climate-change-explained-by-Hans-Rosling.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./40-Population-growth-and-climate-change-explained-by-Hans-Rosling.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:e53f2b8f-42a2-40fc-bbdc-eb0b04ddef61</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">36</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="50"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="50"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="1050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="1370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="2670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="2770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="2770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="3950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="3950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="4080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="4080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="5180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="5180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="94825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="94825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="94825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="94825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="94825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="94825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="117386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="117386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="117386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="117386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="117386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="117386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="143121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="143121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="143121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="143121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="143121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="143121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="143466"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="143466"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="143466"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="143466"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="143466"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="161510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="161510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="161510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="161510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="161510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="175080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="175080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="175080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="175080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="175080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="175080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="186040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="186040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="186040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="186040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="186040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="186040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="186571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="186571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="186571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="186571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="186571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="186571"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="195493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="195493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="195493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="195493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="195493"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="195493"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Argumentation" TIER_ID="Argumentation">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                CVE_REF="cveid_6f4433ea-144c-486a-9e8d-5f7ef0301dcc"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>Grounds</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                CVE_REF="cveid_a7702c05-343e-4c8b-a868-97e4c5a09d49"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>Warrant</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                CVE_REF="cveid_783ba90b-7702-4252-afaf-ca991de353de"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>Claim</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                CVE_REF="cveid_6f4433ea-144c-486a-9e8d-5f7ef0301dcc"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>Grounds</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                CVE_REF="cveid_a7702c05-343e-4c8b-a868-97e4c5a09d49"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts67">
+                <ANNOTATION_VALUE>Warrant</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="J" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Motif" TIER_ID="Motif">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                CVE_REF="cveid_7415da7f-2c71-4e6b-be03-21ccd8ce7044"
+                TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Greenhouse gasses</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                CVE_REF="cveid_57c46c91-aa80-4453-955f-769d5bbeb7b5"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Responsibility</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                CVE_REF="cveid_7415da7f-2c71-4e6b-be03-21ccd8ce7044"
+                TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>Greenhouse gasses</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                CVE_REF="cveid_7415da7f-2c71-4e6b-be03-21ccd8ce7044"
+                TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Greenhouse gasses</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                CVE_REF="cveid_57c46c91-aa80-4453-955f-769d5bbeb7b5"
+                TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>Responsibility</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                CVE_REF="cveid_57c46c91-aa80-4453-955f-769d5bbeb7b5"
+                TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>Responsibility</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                CVE_REF="cveid_7415da7f-2c71-4e6b-be03-21ccd8ce7044"
+                TIME_SLOT_REF1="ts62" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>Greenhouse gasses</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="J" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Type" TIER_ID="Type">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                CVE_REF="cveid_491c6c55-fae7-4e5f-87c0-295eda0377c2"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE>Factual</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                CVE_REF="cveid_491c6c55-fae7-4e5f-87c0-295eda0377c2"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts35">
+                <ANNOTATION_VALUE>Factual</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                CVE_REF="cveid_e9eb9966-48c7-4841-a1c1-f0cdf61da2dc"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>Opinion</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                CVE_REF="cveid_491c6c55-fae7-4e5f-87c0-295eda0377c2"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>Factual</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                CVE_REF="cveid_e9eb9966-48c7-4841-a1c1-f0cdf61da2dc"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts69">
+                <ANNOTATION_VALUE>Opinion</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="J" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Form" TIER_ID="Form">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+                CVE_REF="cveid_67654f44-d1af-4598-89d0-99a9c056ad08"
+                TIME_SLOT_REF1="ts18" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>Illustration</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
+                CVE_REF="cveid_a4bebad8-81dc-420c-ac5c-9baa6dfb5d66"
+                TIME_SLOT_REF1="ts30" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Comparison</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
+                CVE_REF="cveid_6c5d6130-58c8-4728-8f78-5db2410e44cb"
+                TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>Definition</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                CVE_REF="cveid_45fdee3c-1adb-4ff6-b436-7e2a23ab0551"
+                TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>Elaboration</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                CVE_REF="cveid_17d6c981-8ab4-4575-8c83-94bf9b02a8ed"
+                TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>Recommendation</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="J" DEFAULT_LOCALE="en"
+        LINGUISTIC_TYPE_REF="Referent" TIER_ID="Referent">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>arg1:claim</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>arg1:ground1</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts59">
+                <ANNOTATION_VALUE>arg1:claim</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts71">
+                <ANNOTATION_VALUE>arg1:grounds2</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Identifier" TIER_ID="Identifier">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>arg1:grounds1</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>arg1:warrant1</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>arg1:claim</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30"
+                TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>arg1:grounds2</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31"
+                TIME_SLOT_REF1="ts66" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>arg1:warrant2</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="J" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="REF" TIER_ID="REF">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32"
+                CVE_REF="cveid_c0e576cd-e99f-43e2-8af5-72f9832aadbf"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>Authority:Source</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33"
+                CVE_REF="cveid_4ebddddb-de3b-4436-8b66-d38f42ad868d"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>Authority:Author</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="J" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="SYM" TIER_ID="Theme">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34"
+                CVE_REF="cveid_c3b63aed-4a7e-4d9d-a895-26ba3c274f58"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>Impact</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Institution" TIER_ID="Institution">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35"
+                CVE_REF="cveid_abbaa7d1-eb71-48fc-a5eb-74a2a60587e3"
+                TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Commercial</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
+                CVE_REF="cveid_80287f45-af30-413f-86e9-507c7042081c"
+                TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Academic</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Argumentation"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Argumentation" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Motif"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Motif" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Type"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Type" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Form"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Form" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Referent" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Identifier" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="REF"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="REF" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Theme"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="SYM" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Institution"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Institution" TIME_ALIGNABLE="true"/>
+    <LOCALE LANGUAGE_CODE="en"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Argumentation">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_783ba90b-7702-4252-afaf-ca991de353de">
+            <CVE_VALUE LANG_REF="und">Claim</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_6f4433ea-144c-486a-9e8d-5f7ef0301dcc">
+            <CVE_VALUE LANG_REF="und">Grounds</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a7702c05-343e-4c8b-a868-97e4c5a09d49">
+            <CVE_VALUE LANG_REF="und">Warrant</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f78a4570-8bc9-41dc-9c66-636b38a9fa82">
+            <CVE_VALUE LANG_REF="und">Backing</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_141d3840-50c8-4424-ac12-8cc0a41fdb4d">
+            <CVE_VALUE LANG_REF="und">Rebuttal</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Motif">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_98f8f502-938e-478e-aea3-d35f0c0a86b7">
+            <CVE_VALUE LANG_REF="und">Technology</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_8f6db27f-145b-4603-85e4-d4277b2573a3">
+            <CVE_VALUE LANG_REF="und">Economics</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_205aa3ab-19c7-4909-a74e-9d5f8aafb74b">
+            <CVE_VALUE LANG_REF="und">Ecosystems</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7415da7f-2c71-4e6b-be03-21ccd8ce7044">
+            <CVE_VALUE LANG_REF="und">Greenhouse gasses</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_57c46c91-aa80-4453-955f-769d5bbeb7b5">
+            <CVE_VALUE LANG_REF="und">Responsibility</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Type">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_491c6c55-fae7-4e5f-87c0-295eda0377c2">
+            <CVE_VALUE LANG_REF="und">Factual</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_e9eb9966-48c7-4841-a1c1-f0cdf61da2dc">
+            <CVE_VALUE LANG_REF="und">Opinion</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_2d1e1ff3-08c0-49fd-953a-65335993e637">
+            <CVE_VALUE LANG_REF="und">Belief</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Form">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_6c5d6130-58c8-4728-8f78-5db2410e44cb">
+            <CVE_VALUE LANG_REF="und">Definition</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_67654f44-d1af-4598-89d0-99a9c056ad08">
+            <CVE_VALUE LANG_REF="und">Illustration</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_45fdee3c-1adb-4ff6-b436-7e2a23ab0551">
+            <CVE_VALUE LANG_REF="und">Elaboration</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7be49165-2914-4402-9006-e3c0e51b0502">
+            <CVE_VALUE LANG_REF="und">Summary</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_05fd8e36-333c-4242-8c10-f0256079074e">
+            <CVE_VALUE LANG_REF="und">Metaphor</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_576f9c3e-7afe-4a6d-8e45-4dcf7c94c2a8">
+            <CVE_VALUE LANG_REF="und">Hyperbole</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a4bebad8-81dc-420c-ac5c-9baa6dfb5d66">
+            <CVE_VALUE LANG_REF="und">Comparison</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_503542c1-1c5b-4645-aaf4-c37b103bec32">
+            <CVE_VALUE LANG_REF="und">Antithesis</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_17d6c981-8ab4-4575-8c83-94bf9b02a8ed">
+            <CVE_VALUE LANG_REF="und">Recommendation</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="REF">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_4ebddddb-de3b-4436-8b66-d38f42ad868d">
+            <CVE_VALUE LANG_REF="und">Authority:Author</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c0e576cd-e99f-43e2-8af5-72f9832aadbf">
+            <CVE_VALUE LANG_REF="und">Authority:Source</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Theme">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_c3eef5d3-71a9-4e24-913e-a299e7981ff3">
+            <CVE_VALUE LANG_REF="und">Evidence</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c865893f-421e-4594-b840-a17149840296">
+            <CVE_VALUE LANG_REF="und">Prediction</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_11397552-ab78-4a46-997e-dbb4a5e44b3c">
+            <CVE_VALUE LANG_REF="und">Solution</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c3b63aed-4a7e-4d9d-a895-26ba3c274f58">
+            <CVE_VALUE LANG_REF="und">Impact</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_d1452ecf-c519-4734-a764-2a6e956834cd">
+            <CVE_VALUE LANG_REF="und">Nature</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Institution">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_abbaa7d1-eb71-48fc-a5eb-74a2a60587e3">
+            <CVE_VALUE LANG_REF="und">Commercial</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_aa9715c2-011f-4dac-8d2f-2e8bdd4b879a">
+            <CVE_VALUE LANG_REF="und">Governmental</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_80287f45-af30-413f-86e9-507c7042081c">
+            <CVE_VALUE LANG_REF="und">Academic</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_77a43dce-615b-404f-b114-7db9b2d981c3">
+            <CVE_VALUE LANG_REF="und">NGO</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
