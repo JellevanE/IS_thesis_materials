@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#"
+     xml:base="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#containsCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#containsCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Backing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Claim"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Grounds"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Outside"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Rebuttal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Warrant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#describesDocument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#describesDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Codes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#exceptionToClaim -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#exceptionToClaim">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Rebuttal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Claim"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasAuthor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasForm">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasInstitutionType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasInstitutionType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasMotif -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasMotif">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasSource">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasTheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasTheme">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Theme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#hasType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#has"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#isPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsClaim -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsClaim">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Grounds"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Claim"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsGrounds -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsGrounds">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Warrant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Grounds"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsMotif -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsMotif">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsTheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsTheme">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Theme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsWarrant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supportsWarrant">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#supports"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Backing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Warrant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#author_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#author_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#author_link -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#author_link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#author_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#author_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#backing_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#backing_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Backing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#claim_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#claim_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Claim"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#document_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#document_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#grounds_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#grounds_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Grounds"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_position -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_position">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#lexia_location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#motif_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#motif_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#motif_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#motif_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#outside_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#outside_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Outside"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#outside_link -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#outside_link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Outside"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#outside_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#outside_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Outside"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#rebuttal_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#rebuttal_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Rebuttal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#source_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#source_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#source_link -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#source_link">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#source_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#source_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#theme_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#theme_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Theme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#theme_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#theme_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Theme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#warrant_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#warrant_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Warrant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Academic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Academic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Antithesis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Antithesis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Attributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Attributes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Authority"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Backing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Backing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Belief -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Belief">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Claim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Claim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Codes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Codes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Commercial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Commercial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Comparison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Comparison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Definition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Elaboration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Elaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Factual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Factual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM_attributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Governmental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Governmental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Grounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Grounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Hyperbole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Hyperbole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Illustration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Illustration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF_attributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Lexia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Metaphor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Metaphor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Mixed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Mixed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Motif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SYM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#NGO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#NGO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Opinion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Opinion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Outside -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Outside">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Codes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF_attributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#REF_attributes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Attributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Rebuttal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Rebuttal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Codes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM_attributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM_attributes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Attributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SYM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SYM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Codes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Authority"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Summary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Summary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Theme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Theme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SYM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#SEM_attributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Video">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Warrant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Warrant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2021/5/versie2.0#Argumentation"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
