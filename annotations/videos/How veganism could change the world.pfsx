@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1536,814</Object>
+        <Object class="java.awt.Dimension">1936,1056</Object>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>7</Int>
@@ -17,7 +17,7 @@
         <String>Argumentation</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>203042</Long>
+        <Long>319540</Long>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>77.0</Float>
@@ -76,13 +76,13 @@
         <String>AAM-LR Phone level audio segmentation</String>
     </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,0</Object>
+        <Object class="java.awt.Point">-8,-8</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>77.0</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>197730</Long>
+        <Long>302710</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
         <pref key="base_url">
@@ -91,17 +91,17 @@
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="TimeScaleBeginTime">
-        <Long>341061</Long>
+        <Long>293779</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>88886</Long>
+        <Long>302324</Long>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="REF">
-            <Object class="java.awt.Color">90,0,90</Object>
-        </pref>
         <pref key="Type">
             <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="REF">
+            <Object class="java.awt.Color">90,0,90</Object>
         </pref>
         <pref key="Argumentation">
             <Object class="java.awt.Color">255,153,0</Object>
